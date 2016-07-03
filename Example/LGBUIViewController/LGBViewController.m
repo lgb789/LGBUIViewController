@@ -7,6 +7,7 @@
 //
 
 #import "LGBViewController.h"
+#import "UIViewController+lgb_navigation.h"
 
 @interface LGBViewController ()
 
@@ -18,6 +19,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [self lgb_setNavigationTitle:@"title" color:[UIColor redColor] font:[UIFont boldSystemFontOfSize:18.0f]];
+    
+    [self lgb_setNavigationBackButtonWithImage:[UIImage imageNamed:@"item_cancel_selected"] highlightedImage:nil action:^{
+        NSLog(@"handle back");
+        [self.navigationController popViewControllerAnimated:YES];
+    }];
 }
 
 - (void)didReceiveMemoryWarning

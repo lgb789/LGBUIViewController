@@ -1,0 +1,6 @@
+framework module LGBUIViewController {
+  umbrella header "LGBUIViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

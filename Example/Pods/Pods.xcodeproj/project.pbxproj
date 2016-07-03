@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033613C42DF505519DDCEFC1C54EBFED /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 600A5B05EBB7A9FE42F9E1D83ABA0898 /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38B08368C5EF67B489E5F0F6E2D394E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		3B2092ECECC80E0E8EFC3652FB4733FE /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EFE4AD1F5E7D4CD26A5882EE9106C8 /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests-dummy.m */; };
+		48479B1D952B957EDA9753C4D237EBB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		5831DBBD7CD0550E60088DAF8C1EEFAE /* Pods-LGBUIViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A67478C9DB018CA898BC17194277456 /* Pods-LGBUIViewController_Example-dummy.m */; };
+		5CBA300999938DFDC5A3FED5D92EED44 /* UIViewController+lgb_navigation.h in Headers */ = {isa = PBXBuildFile; fileRef = C054C0137519A4A128692CC939524759 /* UIViewController+lgb_navigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64639BA916E32BF03C95139DADF52E57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		A99288209E2FDF716DDDDE6D5A4CC63A /* UIViewController+lgb_navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 361E9C1FC935612BC74E7307641B87E4 /* UIViewController+lgb_navigation.m */; };
+		AD831B35B9F8D95427BD95657029956A /* Pods-LGBUIViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1AF5E1326DBDAF0F0214A1FD42E4DA0 /* Pods-LGBUIViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D06B19E57C3F814719857DD70BD4A5D1 /* LGBUIViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCD7E09CDA308B0480E8090E2D2664BE /* LGBUIViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D21EB7B89CB14133AC27D2DD3A645EB4 /* LGBUIViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FBC2FED44FBCA72AF2A817A8C484F9 /* LGBUIViewController-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BDE777C3CD32CB803597DA3FB4BC603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DCA5BF30AD8737DEDF62B49355C420A;
+			remoteInfo = LGBUIViewController;
+		};
+		49781216E663F2EBC7A110D3602FD333 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DCA5BF30AD8737DEDF62B49355C420A;
+			remoteInfo = LGBUIViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10815A1F3428B49EF7289A4DC706C209 /* Pods-LGBUIViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LGBUIViewController_Example.modulemap"; sourceTree = "<group>"; };
+		2C9477E7BD8701A72DEFF8E97EB4B7DA /* Pods-LGBUIViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBUIViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		361E9C1FC935612BC74E7307641B87E4 /* UIViewController+lgb_navigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+lgb_navigation.m"; sourceTree = "<group>"; };
+		398A599DF8580622EFBAA2206E41861A /* Pods-LGBUIViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGBUIViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		448224CAA6FCBC29579F2E661B31E8A8 /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBUIViewController_Example-LGBUIViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		454D052CECCB9C1270B99A2A256724C4 /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBUIViewController_Example-LGBUIViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		488737A0CF55202BB022D5D089CC8F54 /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBUIViewController_Example-LGBUIViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		48DE0C99EA12E620652F7A6A6FD9CFEF /* Pods-LGBUIViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBUIViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4C07A70DC8ABB381ACC0FA162BBC1FDA /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LGBUIViewController_Example-LGBUIViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5047AF247A86F49FB9ED7BD9136849F9 /* LGBUIViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LGBUIViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CE0B4EFE76143DF1C0E864A4AD6C85C /* Pods-LGBUIViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBUIViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		60076E84FFF97223C2C5F794C0D7D84A /* Pods-LGBUIViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGBUIViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		600A5B05EBB7A9FE42F9E1D83ABA0898 /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGBUIViewController_Example-LGBUIViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6268F97662A4A636417CD0809BCB5E0D /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LGBUIViewController_Example-LGBUIViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		885F4F22DB23D5803DDD0AF65F5CBB49 /* Pods_LGBUIViewController_Example_LGBUIViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBUIViewController_Example_LGBUIViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A67478C9DB018CA898BC17194277456 /* Pods-LGBUIViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGBUIViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		8D65BD6A0E403E50443B96ADD4D39B52 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27C2D9106B8EF6884D6A932A3CA00D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A62DB36B3A788B8117ED9CF5E449AED7 /* LGBUIViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGBUIViewController-prefix.pch"; sourceTree = "<group>"; };
+		A9EFE4AD1F5E7D4CD26A5882EE9106C8 /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LGBUIViewController_Example-LGBUIViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCD7E09CDA308B0480E8090E2D2664BE /* LGBUIViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGBUIViewController-umbrella.h"; sourceTree = "<group>"; };
+		C054C0137519A4A128692CC939524759 /* UIViewController+lgb_navigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+lgb_navigation.h"; sourceTree = "<group>"; };
+		C6F30E81F838BCDA630BAB1C54A7208B /* LGBUIViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LGBUIViewController.modulemap; sourceTree = "<group>"; };
+		C72487B94D0E05B77B7063E6E2781DE6 /* LGBUIViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGBUIViewController.xcconfig; sourceTree = "<group>"; };
+		C79C3354884299146626C29C05F8F89A /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LGBUIViewController_Example-LGBUIViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD32139C940153CB1B972B4902DA8C8C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5E1D273AA12FA4EE6F09DA0F617736 /* Pods-LGBUIViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LGBUIViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D0FBC2FED44FBCA72AF2A817A8C484F9 /* LGBUIViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGBUIViewController-dummy.m"; sourceTree = "<group>"; };
+		D9E88FFA4F1B2AC66F4DB58F11E8A284 /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LGBUIViewController_Example-LGBUIViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E627A6012B83674EBEF18146CC5AE1C8 /* Pods_LGBUIViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBUIViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1AF5E1326DBDAF0F0214A1FD42E4DA0 /* Pods-LGBUIViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LGBUIViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A74DECD250D0B41BCF48633EB29F529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38B08368C5EF67B489E5F0F6E2D394E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8D97C09116A1AD2ECDEB22BF5ABDDFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48479B1D952B957EDA9753C4D237EBB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCBF7C1FD3FE84303B956910963317F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64639BA916E32BF03C95139DADF52E57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CC88221B401A3DFD74BE213DD31C4C2 /* Pods-LGBUIViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A27C2D9106B8EF6884D6A932A3CA00D3 /* Info.plist */,
+				10815A1F3428B49EF7289A4DC706C209 /* Pods-LGBUIViewController_Example.modulemap */,
+				60076E84FFF97223C2C5F794C0D7D84A /* Pods-LGBUIViewController_Example-acknowledgements.markdown */,
+				398A599DF8580622EFBAA2206E41861A /* Pods-LGBUIViewController_Example-acknowledgements.plist */,
+				8A67478C9DB018CA898BC17194277456 /* Pods-LGBUIViewController_Example-dummy.m */,
+				CE5E1D273AA12FA4EE6F09DA0F617736 /* Pods-LGBUIViewController_Example-frameworks.sh */,
+				5CE0B4EFE76143DF1C0E864A4AD6C85C /* Pods-LGBUIViewController_Example-resources.sh */,
+				F1AF5E1326DBDAF0F0214A1FD42E4DA0 /* Pods-LGBUIViewController_Example-umbrella.h */,
+				2C9477E7BD8701A72DEFF8E97EB4B7DA /* Pods-LGBUIViewController_Example.debug.xcconfig */,
+				48DE0C99EA12E620652F7A6A6FD9CFEF /* Pods-LGBUIViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-LGBUIViewController_Example";
+			path = "Target Support Files/Pods-LGBUIViewController_Example";
+			sourceTree = "<group>";
+		};
+		2D9960B7F510DC9D9EDBC62B3E4971D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5047AF247A86F49FB9ED7BD9136849F9 /* LGBUIViewController.framework */,
+				E627A6012B83674EBEF18146CC5AE1C8 /* Pods_LGBUIViewController_Example.framework */,
+				885F4F22DB23D5803DDD0AF65F5CBB49 /* Pods_LGBUIViewController_Example_LGBUIViewController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		368780E786DD5B43B97826F86A18627B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D65BD6A0E403E50443B96ADD4D39B52 /* Info.plist */,
+				C6F30E81F838BCDA630BAB1C54A7208B /* LGBUIViewController.modulemap */,
+				C72487B94D0E05B77B7063E6E2781DE6 /* LGBUIViewController.xcconfig */,
+				D0FBC2FED44FBCA72AF2A817A8C484F9 /* LGBUIViewController-dummy.m */,
+				A62DB36B3A788B8117ED9CF5E449AED7 /* LGBUIViewController-prefix.pch */,
+				BCD7E09CDA308B0480E8090E2D2664BE /* LGBUIViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LGBUIViewController";
+			sourceTree = "<group>";
+		};
+		480A2DD07C1FB0F7403599C1EAA0A17D /* LGBUIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D1F15E34190083C03B76E45562663FB5 /* LGBUIViewController */,
+				368780E786DD5B43B97826F86A18627B /* Support Files */,
+			);
+			name = LGBUIViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				B0FB0B30C9C731EFC576CEED24727FCB /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2D9960B7F510DC9D9EDBC62B3E4971D8 /* Products */,
+				B0DAF864EA6CA4A9E030B55C004FB872 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9768AFACA6520CFA33290C5F55B70F85 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C054C0137519A4A128692CC939524759 /* UIViewController+lgb_navigation.h */,
+				361E9C1FC935612BC74E7307641B87E4 /* UIViewController+lgb_navigation.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B0DAF864EA6CA4A9E030B55C004FB872 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CC88221B401A3DFD74BE213DD31C4C2 /* Pods-LGBUIViewController_Example */,
+				F11FECAE4B5E849DF3E7668FF6A1721A /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B0FB0B30C9C731EFC576CEED24727FCB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				480A2DD07C1FB0F7403599C1EAA0A17D /* LGBUIViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D1F15E34190083C03B76E45562663FB5 /* LGBUIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9768AFACA6520CFA33290C5F55B70F85 /* Classes */,
+			);
+			path = LGBUIViewController;
+			sourceTree = "<group>";
+		};
+		F11FECAE4B5E849DF3E7668FF6A1721A /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CD32139C940153CB1B972B4902DA8C8C /* Info.plist */,
+				6268F97662A4A636417CD0809BCB5E0D /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests.modulemap */,
+				D9E88FFA4F1B2AC66F4DB58F11E8A284 /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests-acknowledgements.markdown */,
+				4C07A70DC8ABB381ACC0FA162BBC1FDA /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests-acknowledgements.plist */,
+				A9EFE4AD1F5E7D4CD26A5882EE9106C8 /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests-dummy.m */,
+				488737A0CF55202BB022D5D089CC8F54 /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests-frameworks.sh */,
+				448224CAA6FCBC29579F2E661B31E8A8 /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests-resources.sh */,
+				600A5B05EBB7A9FE42F9E1D83ABA0898 /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests-umbrella.h */,
+				C79C3354884299146626C29C05F8F89A /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests.debug.xcconfig */,
+				454D052CECCB9C1270B99A2A256724C4 /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-LGBUIViewController_Example-LGBUIViewController_Tests";
+			path = "Target Support Files/Pods-LGBUIViewController_Example-LGBUIViewController_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6A6D3B4948DEE91729D1771B002ED284 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033613C42DF505519DDCEFC1C54EBFED /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CE42FCC07885EEAE3414D00D92F69AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06B19E57C3F814719857DD70BD4A5D1 /* LGBUIViewController-umbrella.h in Headers */,
+				5CBA300999938DFDC5A3FED5D92EED44 /* UIViewController+lgb_navigation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E256857756178200EFF7917D52B2DF1C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD831B35B9F8D95427BD95657029956A /* Pods-LGBUIViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8063CD989E570E6A4E9BCE00D334BFB9 /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C690E4609928A693BB73A6AF85C0E1F /* Build configuration list for PBXNativeTarget "Pods-LGBUIViewController_Example-LGBUIViewController_Tests" */;
+			buildPhases = (
+				BC4B051E0350C05BA549981B66F6A48E /* Sources */,
+				B8D97C09116A1AD2ECDEB22BF5ABDDFC /* Frameworks */,
+				6A6D3B4948DEE91729D1771B002ED284 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27153C2514AC129B3737C385178E08CE /* PBXTargetDependency */,
+			);
+			name = "Pods-LGBUIViewController_Example-LGBUIViewController_Tests";
+			productName = "Pods-LGBUIViewController_Example-LGBUIViewController_Tests";
+			productReference = 885F4F22DB23D5803DDD0AF65F5CBB49 /* Pods_LGBUIViewController_Example_LGBUIViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9DCA5BF30AD8737DEDF62B49355C420A /* LGBUIViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76E6B322924D6A14059F530597BBDD17 /* Build configuration list for PBXNativeTarget "LGBUIViewController" */;
+			buildPhases = (
+				5E9D1FCAB094ABB05DBB1A95672ECCDB /* Sources */,
+				EDCBF7C1FD3FE84303B956910963317F /* Frameworks */,
+				7CE42FCC07885EEAE3414D00D92F69AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGBUIViewController;
+			productName = LGBUIViewController;
+			productReference = 5047AF247A86F49FB9ED7BD9136849F9 /* LGBUIViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9A83E107C08E6902FF024772FBAE155 /* Pods-LGBUIViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F53B34FE0972A129F9F1799149BE31C9 /* Build configuration list for PBXNativeTarget "Pods-LGBUIViewController_Example" */;
+			buildPhases = (
+				1C207D510CF894FDF27259DC17A2927F /* Sources */,
+				4A74DECD250D0B41BCF48633EB29F529 /* Frameworks */,
+				E256857756178200EFF7917D52B2DF1C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F267488DC279662AB399593982CBD9E /* PBXTargetDependency */,
+			);
+			name = "Pods-LGBUIViewController_Example";
+			productName = "Pods-LGBUIViewController_Example";
+			productReference = E627A6012B83674EBEF18146CC5AE1C8 /* Pods_LGBUIViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2D9960B7F510DC9D9EDBC62B3E4971D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DCA5BF30AD8737DEDF62B49355C420A /* LGBUIViewController */,
+				A9A83E107C08E6902FF024772FBAE155 /* Pods-LGBUIViewController_Example */,
+				8063CD989E570E6A4E9BCE00D334BFB9 /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C207D510CF894FDF27259DC17A2927F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5831DBBD7CD0550E60088DAF8C1EEFAE /* Pods-LGBUIViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9D1FCAB094ABB05DBB1A95672ECCDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21EB7B89CB14133AC27D2DD3A645EB4 /* LGBUIViewController-dummy.m in Sources */,
+				A99288209E2FDF716DDDDE6D5A4CC63A /* UIViewController+lgb_navigation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4B051E0350C05BA549981B66F6A48E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2092ECECC80E0E8EFC3652FB4733FE /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27153C2514AC129B3737C385178E08CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LGBUIViewController;
+			target = 9DCA5BF30AD8737DEDF62B49355C420A /* LGBUIViewController */;
+			targetProxy = 49781216E663F2EBC7A110D3602FD333 /* PBXContainerItemProxy */;
+		};
+		8F267488DC279662AB399593982CBD9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LGBUIViewController;
+			target = 9DCA5BF30AD8737DEDF62B49355C420A /* LGBUIViewController */;
+			targetProxy = 2BDE777C3CD32CB803597DA3FB4BC603 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0780130F9143ACD989E3D33E01AF21CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48DE0C99EA12E620652F7A6A6FD9CFEF /* Pods-LGBUIViewController_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LGBUIViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGBUIViewController_Example/Pods-LGBUIViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LGBUIViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E48D965545929533A40C3C2DAA619E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C9477E7BD8701A72DEFF8E97EB4B7DA /* Pods-LGBUIViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LGBUIViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGBUIViewController_Example/Pods-LGBUIViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LGBUIViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6360A03AC3BF4D34CEC99B0E04737449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C72487B94D0E05B77B7063E6E2781DE6 /* LGBUIViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LGBUIViewController/LGBUIViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGBUIViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LGBUIViewController/LGBUIViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LGBUIViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6569F07DC21AD8B72752685013E3D9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6CC20A2A90C5DE952E8EE1A78E96AA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 454D052CECCB9C1270B99A2A256724C4 /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LGBUIViewController_Example-LGBUIViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGBUIViewController_Example-LGBUIViewController_Tests/Pods-LGBUIViewController_Example-LGBUIViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LGBUIViewController_Example_LGBUIViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A14E2444F162A20E3776820E0ADFFB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5000978DF72F9C94E68C561445EE427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C72487B94D0E05B77B7063E6E2781DE6 /* LGBUIViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LGBUIViewController/LGBUIViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGBUIViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LGBUIViewController/LGBUIViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LGBUIViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E58A2715C7C4A7DE20324AAD9E2198A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C79C3354884299146626C29C05F8F89A /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LGBUIViewController_Example-LGBUIViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LGBUIViewController_Example-LGBUIViewController_Tests/Pods-LGBUIViewController_Example-LGBUIViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LGBUIViewController_Example_LGBUIViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6569F07DC21AD8B72752685013E3D9D8 /* Debug */,
+				A14E2444F162A20E3776820E0ADFFB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76E6B322924D6A14059F530597BBDD17 /* Build configuration list for PBXNativeTarget "LGBUIViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6360A03AC3BF4D34CEC99B0E04737449 /* Debug */,
+				B5000978DF72F9C94E68C561445EE427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C690E4609928A693BB73A6AF85C0E1F /* Build configuration list for PBXNativeTarget "Pods-LGBUIViewController_Example-LGBUIViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58A2715C7C4A7DE20324AAD9E2198A9 /* Debug */,
+				6CC20A2A90C5DE952E8EE1A78E96AA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F53B34FE0972A129F9F1799149BE31C9 /* Build configuration list for PBXNativeTarget "Pods-LGBUIViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E48D965545929533A40C3C2DAA619E7 /* Debug */,
+				0780130F9143ACD989E3D33E01AF21CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

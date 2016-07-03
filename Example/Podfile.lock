@@ -1,0 +1,14 @@
+PODS:
+  - LGBUIViewController (0.1.0)
+
+DEPENDENCIES:
+  - LGBUIViewController (from `../`)
+
+EXTERNAL SOURCES:
+  LGBUIViewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LGBUIViewController: 2bbd17d25d9e3451f3b92d5fca2b9015787ff630
+
+COCOAPODS: 0.39.0

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29DD5F65ACC272635731C152 /* Pods_LGBUIViewController_Example_LGBUIViewController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFB33661C7E3D52CB7F9ADA /* Pods_LGBUIViewController_Example_LGBUIViewController_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,6 +22,11 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		CF8BDB4C1D295E0900C20C96 /* nav_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8BDB4A1D295E0900C20C96 /* nav_back@2x.png */; };
+		CF8BDB4D1D295E0900C20C96 /* nav_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8BDB4B1D295E0900C20C96 /* nav_back@3x.png */; };
+		CF8BDB501D295E6300C20C96 /* LGBTTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8BDB4F1D295E6300C20C96 /* LGBTTViewController.m */; };
+		CF8BDB521D295FBD00C20C96 /* item_cancel_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8BDB511D295FBD00C20C96 /* item_cancel_selected@2x.png */; };
+		D5F236EBE7317A12186D31BA /* Pods_LGBUIViewController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BF263A8AB5CD2D3C48B265 /* Pods_LGBUIViewController_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		49DECDBC3586E553D73DB934 /* LGBUIViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = LGBUIViewController.podspec; path = ../LGBUIViewController.podspec; sourceTree = "<group>"; };
+		082C820C90348800C16F0956 /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBUIViewController_Example-LGBUIViewController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGBUIViewController_Example-LGBUIViewController_Tests/Pods-LGBUIViewController_Example-LGBUIViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		49DECDBC3586E553D73DB934 /* LGBUIViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LGBUIViewController.podspec; path = ../LGBUIViewController.podspec; sourceTree = "<group>"; };
 		5CC3144C9C3397AF3303A7FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LGBUIViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGBUIViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,7 +63,17 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		91E6019EB3F687C05D18C4BE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		91E6019EB3F687C05D18C4BE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AAE1576B13595777FB691058 /* Pods-LGBUIViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBUIViewController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGBUIViewController_Example/Pods-LGBUIViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CDFB33661C7E3D52CB7F9ADA /* Pods_LGBUIViewController_Example_LGBUIViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBUIViewController_Example_LGBUIViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8BDB4A1D295E0900C20C96 /* nav_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_back@2x.png"; sourceTree = "<group>"; };
+		CF8BDB4B1D295E0900C20C96 /* nav_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_back@3x.png"; sourceTree = "<group>"; };
+		CF8BDB4E1D295E6300C20C96 /* LGBTTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGBTTViewController.h; sourceTree = "<group>"; };
+		CF8BDB4F1D295E6300C20C96 /* LGBTTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGBTTViewController.m; sourceTree = "<group>"; };
+		CF8BDB511D295FBD00C20C96 /* item_cancel_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "item_cancel_selected@2x.png"; sourceTree = "<group>"; };
+		E49CA06A1D50568752509808 /* Pods-LGBUIViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBUIViewController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGBUIViewController_Example/Pods-LGBUIViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F4BF263A8AB5CD2D3C48B265 /* Pods_LGBUIViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGBUIViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F82111EE4486F3C6082709DA /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGBUIViewController_Example-LGBUIViewController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGBUIViewController_Example-LGBUIViewController_Tests/Pods-LGBUIViewController_Example-LGBUIViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +84,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				D5F236EBE7317A12186D31BA /* Pods_LGBUIViewController_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +95,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				29DD5F65ACC272635731C152 /* Pods_LGBUIViewController_Example_LGBUIViewController_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +110,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
+				6F1F873560E200B0E3ED9BF9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +130,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
+				F4BF263A8AB5CD2D3C48B265 /* Pods_LGBUIViewController_Example.framework */,
+				CDFB33661C7E3D52CB7F9ADA /* Pods_LGBUIViewController_Example_LGBUIViewController_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,6 +139,9 @@
 		6003F593195388D20070C39A /* Example for LGBUIViewController */ = {
 			isa = PBXGroup;
 			children = (
+				CF8BDB511D295FBD00C20C96 /* item_cancel_selected@2x.png */,
+				CF8BDB4A1D295E0900C20C96 /* nav_back@2x.png */,
+				CF8BDB4B1D295E0900C20C96 /* nav_back@3x.png */,
 				6003F59C195388D20070C39A /* LGBAppDelegate.h */,
 				6003F59D195388D20070C39A /* LGBAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -124,6 +149,8 @@
 				6003F5A6195388D20070C39A /* LGBViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				CF8BDB4E1D295E6300C20C96 /* LGBTTViewController.h */,
+				CF8BDB4F1D295E6300C20C96 /* LGBTTViewController.m */,
 			);
 			name = "Example for LGBUIViewController";
 			path = LGBUIViewController;
@@ -169,6 +196,17 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		6F1F873560E200B0E3ED9BF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAE1576B13595777FB691058 /* Pods-LGBUIViewController_Example.debug.xcconfig */,
+				E49CA06A1D50568752509808 /* Pods-LGBUIViewController_Example.release.xcconfig */,
+				F82111EE4486F3C6082709DA /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests.debug.xcconfig */,
+				082C820C90348800C16F0956 /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -176,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "LGBUIViewController_Example" */;
 			buildPhases = (
+				CBFCA27E0D3DCEB5D375A2B5 /* Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				17504EF3D4390A221ABEAFB6 /* Embed Pods Frameworks */,
+				60354B4C0680F194D2D33785 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "LGBUIViewController_Tests" */;
 			buildPhases = (
+				17743D8520E8993FFABA0D9B /* Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
+				B2097B79C666A24F560289D6 /* Embed Pods Frameworks */,
+				0D28B02EEF06089EE31F8FCF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,7 +266,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "LGBUIViewController" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -246,7 +290,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF8BDB521D295FBD00C20C96 /* item_cancel_selected@2x.png in Resources */,
+				CF8BDB4D1D295E0900C20C96 /* nav_back@3x.png in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				CF8BDB4C1D295E0900C20C96 /* nav_back@2x.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -262,11 +309,105 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D28B02EEF06089EE31F8FCF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGBUIViewController_Example-LGBUIViewController_Tests/Pods-LGBUIViewController_Example-LGBUIViewController_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17504EF3D4390A221ABEAFB6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGBUIViewController_Example/Pods-LGBUIViewController_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17743D8520E8993FFABA0D9B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		60354B4C0680F194D2D33785 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGBUIViewController_Example/Pods-LGBUIViewController_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2097B79C666A24F560289D6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGBUIViewController_Example-LGBUIViewController_Tests/Pods-LGBUIViewController_Example-LGBUIViewController_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBFCA27E0D3DCEB5D375A2B5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF8BDB501D295E6300C20C96 /* LGBTTViewController.m in Sources */,
 				6003F59E195388D20070C39A /* LGBAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LGBViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -344,7 +485,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -377,7 +518,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -386,12 +527,14 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAE1576B13595777FB691058 /* Pods-LGBUIViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LGBUIViewController/LGBUIViewController-Prefix.pch";
 				INFOPLIST_FILE = "LGBUIViewController/LGBUIViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -401,12 +544,14 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E49CA06A1D50568752509808 /* Pods-LGBUIViewController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LGBUIViewController/LGBUIViewController-Prefix.pch";
 				INFOPLIST_FILE = "LGBUIViewController/LGBUIViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +561,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F82111EE4486F3C6082709DA /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -439,6 +585,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 082C820C90348800C16F0956 /* Pods-LGBUIViewController_Example-LGBUIViewController_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -459,7 +606,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "LGBUIViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
