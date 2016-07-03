@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LGBUIViewController_Example' do
+  pod 'LGBUIViewController', :path => '../'
+
+  target 'LGBUIViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
